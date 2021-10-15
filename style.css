@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: #F5C801;
+}
+
+.container {
+	width: 1200px;
+	max-width: 100%;
+	margin-top: 30px;
+	cursor: default;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+	padding: 0 45px;
+	background-color: #fff;
+}
+
+.para {
+	text-align: justify;
+	font-weight: 400;
+	font-size: 20px;
+	white-space: normal;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.poem {
+	font-size: 20px;
+	margin: 20px 0;
+	text-align: center;
+	color: red;
+}
